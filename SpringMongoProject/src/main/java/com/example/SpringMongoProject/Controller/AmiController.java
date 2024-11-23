@@ -43,4 +43,9 @@ public class AmiController {
         return amiServices.getAmiByID(amiid);
     }
 
+
+    @GetMapping(value = "/getallString")
+    public String test() {
+        return "hamza";
+    }
 }
